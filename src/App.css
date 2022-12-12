@@ -1,0 +1,45 @@
+body {
+	background-color: hsla(225, 100%, 94%, 0.801);
+  
+}
+
+.sub-card{
+    width: 300px;
+    height:auto;
+    background-color:white;
+    margin: 20px;
+    padding:10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgb(94, 145, 240);
+
+}
+
+.sub-card:hover{
+    transform: scale(1.1);
+}
+
+.main-card{
+    padding: 40px 20px 20px 20px;
+	width: 99%;
+	margin: auto;
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: space-between;
+	justify-content: center;
+	
+} 
+
+.search-box{
+    width: 500px;
+    outline: none;
+    height:50px;
+    border-radius: 20px;
+    margin: 50px;
+    margin-left: 500px;
+    font-size: 15px;
+
+}
+
+img{
+    padding-left: 10px;
+}
